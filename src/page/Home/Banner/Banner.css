@@ -1,0 +1,16 @@
+.banner {
+  /* background-image: url("https://andtour-vue.netlify.app/img/bg.40066edd.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slider-container {
+  width: 360px;
+}
+.slider_area {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+.hero_title {
+  font-family: "Raleway", sans-serif;
+}
