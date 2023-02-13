@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SocialLogin from '../../comps/SocialLogin/SocialLogin';
+import UseWebTitle from '../../hooks/UseWebTitle/UseWebTitle';
 
 const Login = () => {
+    UseWebTitle('HRL Login Page')
     return (
         <section class="max-w-7xl mx-auto mt-24 mb-24">
             <div class="  flex items-center justify-center px-5 py-5">

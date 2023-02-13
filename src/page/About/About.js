@@ -3,16 +3,16 @@ import UseWebTitle from '../../hooks/UseWebTitle/UseWebTitle';
 import AboutDetails from './AboutDetails/AboutDetails';
 
 const About = () => {
-    UseWebTitle('About Page')
+    UseWebTitle('HRL Travel About Page')
     return (
-        <div className='max-w-8xl mx-auto mt-40'>
+        <div className='max-w-7xl mx-auto mt-40'>
             <div className='mb-24'>
                 <AboutDetails></AboutDetails>
             </div>
             {/*  */}
             <section className="">
                 <div>
-                    <h1 className='text-4xl text-[#0f298a] text-center'>We Provide</h1>
+                    <h1 className='text-4xl text-[#0f298a] font-bold pb-10 text-center'>We Provide</h1>
                 </div>
                 <div className=" flex flex-col-reverse mx-auto lg:flex-row">
                     <div className="">
@@ -53,9 +53,9 @@ const About = () => {
             </section>
             {/*  */}
             {/*  */}
-            <section className="p-4 lg:p-8 dark:bg-gray-800 dark:text-gray-100">
+            <section className="mb-16">
                 <div>
-                    <h1 className='text-4xl text-[#0f298a] text-center mb-10 mt-10'>Check Here</h1>
+                    <h1 className='text-4xl font-bold pb-10 text-[#0f298a] text-center mb-10 mt-10'>Check Here</h1>
                 </div>
                 <div className=" mx-auto space-y-12">
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row main_shadow">
@@ -89,10 +89,10 @@ const About = () => {
             </section>
             {/*  */}
             {/*  */}
-            <div className="max-w-7xl mx-auto p-6 py-12 bg-violet-400 rounded-lg">
-                <div className="container mx-auto">
+            <div className="max-w-7xl mx-auto px-12 py-12 bg-[#0F298A] text-white rounded-lg">
+                <div className="max-w-7xl mx-auto">
                     <div className="flex flex-col lg:flex-row items-center justify-between">
-                        <h2 className="text-center text-6xl tracking-tighter font-bold">Up to
+                        <h2 className="text-center text-6xl tracking-tighter font-bold text-white">Up to
                             <br className="sm:hidden" />50% Off
                         </h2>
                         <div className="space-x-2 text-center py-2 lg:py-0">

@@ -14,7 +14,7 @@ import { Autoplay, EffectCube, Pagination } from "swiper";
 function GlobGallery() {
     return (
         <div className="w-96 mx-auto ">
-        <h2 className="p-5 text-center text-4xl booking_title border-b-2 w-80 mx-auto capitalize mb-16">See Favorite Places</h2>
+            <h2 className="p-5 text-center text-4xl booking_title border-b-2 w-80 mx-auto capitalize mb-16 font-bold">See Favorite Places</h2>
             <Swiper
                 autoplay={{
                     delay: 1000,

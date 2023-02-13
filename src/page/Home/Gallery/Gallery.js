@@ -8,7 +8,7 @@ const Gallery = () => {
         <div className='mt-20 mb-20'>
             <section className="overflow-hidden text-gray-700">
                 <div>
-                    <h1 className='p-5 text-center text-4xl booking_title border-b-2 w-72 capitalize mx-auto'>Top destinations</h1>
+                    <h1 className='p-5 text-center text-4xl booking_title border-b-2 w-72 capitalize mx-auto font-bold'>Top destinations</h1>
                 </div>
                 <div className="max-w-7xl  mx-auto mt-16">
                     <div className="flex flex-wrap -m-1 md:-m-2">

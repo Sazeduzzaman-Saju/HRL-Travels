@@ -5,7 +5,7 @@ import './Brand.css'
 const Brand = () => {
     return (
         <div className='max-w-7xl mx-auto mt-20 mb-20'>
-            <h1 className='p-5 text-center text-4xl booking_title border-b-2 w-80 mx-auto capitalize'>Our partners</h1>
+            <h1 className='p-5 text-center text-4xl booking_title border-b-2 w-80 mx-auto capitalize font-bold pb-10'>Our partners</h1>
             <div>
                 <BrandCarousel></BrandCarousel>
             </div>

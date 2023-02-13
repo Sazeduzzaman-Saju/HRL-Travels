@@ -2,7 +2,7 @@ import React from 'react';
 import UseWebTitle from '../../hooks/UseWebTitle/UseWebTitle';
 
 const Contact = () => {
-    UseWebTitle('Contact Page')
+    UseWebTitle('HRL Travel Contact Page')
     return (
         <div className=' max-w-7xl mx-auto'>
             <section className="py-20 dark:bg-gray-800 dark:text-gray-100 mt-24">

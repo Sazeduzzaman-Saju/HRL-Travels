@@ -10,7 +10,7 @@ const ComingSoon = ({ children }) => {
 
                             <span class="text-xl lg:text-2xl xl:text-3xl font-bold">{children}</span>
                         </div>
-                        <h1 class="text-6xl lg:text-7xl xl:text-8xl text-gray-200 tracking-wider font-bold font-serif mt-12 text-center">Coming Soon</h1>
+                        <h1 class="text-transparent font-bold lg:text-8xl sm:text-3xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 pb-3">Coming Soon</h1>
                         <div class="flex flex-col items-center space-y-4 mt-24">
                             <p class="text-gray-300 uppercase text-sm">Notify me when it's ready</p>
                             <form class="w-full flex items-center">

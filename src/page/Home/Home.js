@@ -10,7 +10,7 @@ import Promotion from './Promotion/Promotion';
 
 
 const Home = () => {
-    UseWebTitle('Home Page')
+    UseWebTitle('HRL Travels Home Page')
 
     return (
         <div className=''>
