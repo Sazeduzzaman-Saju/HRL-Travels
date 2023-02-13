@@ -11,8 +11,8 @@ const Footer = () => {
                             <img src={logo} className="bg-transparent p-2 h-24  mr-3 " alt=" Logo" />
                             <p className='text-2xl'>You travel, We care...</p>
                         </div>
-                        <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
-                            <div className="space-y-3">
+                        <div className="grid lg:grid-cols-4 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-1 footer_menu">
+                            <div className="space-y-3 ">
                                 <h3 className="tracking-wide uppercase text-[#0F298A]">Product</h3>
                                 <ul className="space-y-1">
                                     <li>

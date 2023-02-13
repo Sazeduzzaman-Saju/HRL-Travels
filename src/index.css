@@ -303,3 +303,59 @@ nav {
     margin: 0 0 30px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .swiper {
+    width: 50%;
+  }
+  .swiper-slide img {
+    display: block;
+    height: 50%;
+    object-fit: cover;
+    width: 100%;
+  }
+  .box {
+    background: linear-gradient(#ef8e38, #108dc7);
+    border-radius: 6px;
+    box-shadow: none;
+    font-family: Raleway, sans-serif;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  section {
+    padding: 1rem;
+  }
+  .booking_form {
+    margin-top: 0rem !important;
+  }
+  .promotion_area {
+    display: none !important;
+  }
+  .subscribe_area {
+    width: 80% !important;
+  }
+  .footer_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .book_btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}

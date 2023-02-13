@@ -84,6 +84,22 @@ const BannerCarousel = () => {
                 }}
                 slidesPerView={4}
                 spaceBetween={30}
+                breakpoints={{
+                    // when window width is >= 640px
+                    500: {
+
+                        slidesPerView: 1,
+                    },
+                    600: {
+
+                        slidesPerView: 1,
+                    },
+                    // when window width is >= 768px
+                    768: {
+
+                        slidesPerView: 4,
+                    }
+                }}
                 modules={[Navigation, Autoplay, FreeMode, Pagination]}
                 className="mySwiper mt-20 mb-20"
             >

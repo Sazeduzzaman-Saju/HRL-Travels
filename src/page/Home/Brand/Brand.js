@@ -9,8 +9,8 @@ const Brand = () => {
             <div>
                 <BrandCarousel></BrandCarousel>
             </div>
-            <div>
-                <div className="w-1/2 mx-auto rounded-lg mt-16 dark:bg-gray-500 main_shadow">
+            <div className=''>
+                <div className=" subscribe_area w-1/2 mx-auto rounded-lg mt-16 dark:bg-gray-500 main_shadow">
                     <div className="container flex flex-col flex-wrap content-center justify-center p-4 py-20 mx-auto md:p-10 bg-[#ffffffb5]">
                         <h1 className="text-5xl antialiased font-semibold leading-none text-center dark:text-gray-100">Get Our Updates</h1>
                         <p className="pt-2 pb-8 text-xl antialiased text-center dark:text-gray-100">Find out about events and other news</p>

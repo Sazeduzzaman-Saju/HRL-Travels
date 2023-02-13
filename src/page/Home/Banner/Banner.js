@@ -17,11 +17,13 @@ const Banner = () => {
                             </h1>
                             <p className="mt-6 mb-8 text-lg sm:mb-12">Find awesome flights, hotel, tour, car and packages
                             </p>
-                            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                                <PrimaryButton>Book Now</PrimaryButton>
-                                <button className=" flex justify-center items-center ml-2 button-89 offcanvas_button" type="button" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
+                            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start book_btn">
+                                <button className='button-86 '>Book Now</button>
+
+                                <button className="flex justify-center items-center ml-2 button-89 offcanvas_button" type="button" data-drawer-target="drawer-right-example" data-drawer-show="drawer-right-example" data-drawer-placement="right" aria-controls="drawer-right-example">
                                     Explore More  <RiArrowRightLine className='ml-5'></RiArrowRightLine>
                                 </button>
+
                             </div>
                         </div>
                     </div>

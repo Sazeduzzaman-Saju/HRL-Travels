@@ -6,8 +6,8 @@ import logo from "../../assets/logo.png"
 const Header = () => {
     return (
         <section className='max-w-7xl mx-auto '>
-            <nav class="bg-transparent px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 ">
-                <div class="max-w-7xl mx-auto  flex flex-wrap items-center justify-between mx-auto">
+            <nav class="bg-[#ffffff87] px-2 sm:px-4 py-2.5 fixed w-full z-20 top-0 left-0 ">
+                <div class="max-w-7xl mx-auto  flex flex-wrap items-center justify-between">
                     <a href="https://flowbite.com/" class="flex items-center">
                         <img src={logo} class="h-20 mr-3 sm:h-20" alt="brand Logo" />
                         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
