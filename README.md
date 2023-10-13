@@ -11,7 +11,7 @@ HRL-Travels is a comprehensive travel booking web application designed to provid
 
 ## Live Demo
 
-Explore the live demo at [hrl-travels.netlify.app](https://hrl-travels.netlify.app).
+Explore the live demo at [https://hrlt-a6e1f.web.app/](https://hrlt-a6e1f.web.app/).
 
 ## Tech Stack
 
